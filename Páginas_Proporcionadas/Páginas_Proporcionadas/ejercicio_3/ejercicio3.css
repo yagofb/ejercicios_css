@@ -1,37 +1,107 @@
-ul,ul li{margin:0;padding:0;list-style:none}h1,h2,h3,p,form{margin:0;padding:0}.clear{clear:both}img{border:none}
+ul, ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
-#contenedor{width:90%;max-width:900px;margin:0 auto;}
+h1, h2, h3, p, form {
+    margin: 0;
+    padding: 0;
+}
 
-#cabecera,#menu,#lateral,#contenido,#contenido #principal,#contenido #secundario,#pie{border:2px solid #777; box-sizing: border-box;}
+.clear {
+    clear: both;
+}
 
-#cabecera{clear:both; padding:1em;}
+img {
+    border: none;
+}
 
-#menu{clear:both; padding:0.5em; margin-bottom:0.5em;}
+#contenedor {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
 
-#lateral{float:left;width:20%}
+#cabecera, #menu, #lateral, #contenido, #contenido #principal, #contenido #secundario, #pie {
+    border: 2px solid #777;
+    box-sizing: border-box;
+}
 
-#contenido{float:right;width:78%; overflow:hidden;}
+#cabecera {
+    clear: both;
+    padding: 1em;
+}
 
-#contenido #principal{float:left;width:74%;}
+#menu {
+    clear: both;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+}
 
-#contenido #secundario{float:right;width:24%;}
+#lateral {
+    float: left;
+    width: 20%;
+}
 
-#pie{clear:both; padding-top:0.5em; padding-bottom:0.5em; margin-top:1em;}
+#contenido {
+    float: right;
+    width: 78%;
+    overflow: hidden;
+}
 
-#cabecera #logo{float:left}
+#contenido #principal {
+    float: left;
+    width: 74%;
+}
 
-#cabecera #buscador{float:right}
+#contenido #secundario {
+    float: right;
+    width: 24%;
+}
 
-#menu ul#menu_principal li{display:inline;float:left}
+#pie {
+    clear: both;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-top: 1em;
+}
 
-#contenido #principal .articulo img{width:100px;float:left; margin:0.5em;}
+#cabecera #logo {
+    float: left;
+}
 
-#pie .enlaces{float:left}
+#cabecera #buscador {
+    float: right;
+}
 
-#pie .copyright{float:right}
+#menu ul#menu_principal li {
+    display: inline;
+    float: left;
+}
 
-#noticias, #publicidad, #principal, #secundario {padding:0.5em;}
+#contenido #principal .articulo img {
+    width: 100px;
+    float: left;
+    margin: 0.5em;
+}
 
-#publicidad {margin-top:1em;}
+#pie .enlaces {
+    float: left;
+}
 
-.articulo {margin-bottom:1em;}
+#pie .copyright {
+    float: right;
+}
+
+#noticias, #publicidad, #principal, #secundario {
+    padding: 0.5em;
+}
+
+#publicidad {
+    margin-top: 1em;
+}
+
+.articulo {
+    margin-bottom: 1em;
+}

@@ -60,6 +60,7 @@ img {
     float: right;
     width: 24%;
     border: 1px solid #CC6600;
+    padding: 0.5em;
 }
 
 #pie {
@@ -101,14 +102,10 @@ img {
 #noticias {
     padding: 0.5em;
     border: 1px solid #C5C5C5;
-    margin-bottom: 1em;
-}
-
-#noticias > .articulo {
-    border: 1px dashed #CC6600;
 }
 
 #publicidad {
+    padding: 0.5em;
     margin-top: 1em;
     border: 1px dashed #CC6600;
 }
